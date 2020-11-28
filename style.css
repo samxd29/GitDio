@@ -71,6 +71,7 @@ body {
     min-height: 19rem;
 }
 .profile-photo{
+    margin-top: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -86,6 +87,7 @@ body {
 }
 .instagram-logout{
     color: #4E8CA6;
+    font-weight: 600;
     margin-top: 1rem;
 }
 .not-account{
@@ -108,7 +110,7 @@ body {
     width: 100%;
     justify-content: space-evenly;
     align-items: center;
-    padding: 1rem;
+    padding: 1.3rem;
 }
 .app-dowloading{
     height: 3rem;
@@ -116,11 +118,15 @@ body {
     background-size: cover;
 }
 .app-dowloading:nth-child(1) {
-    background-image: url(./images/logoapple.png);
+    background-image: url(./images/logo-apple.jpg);
+    
+    
 
 }
 .app-dowloading:nth-child(2){
-    background-image: url(./images/logogoogle.png);
+    background-image: url(./images/logo-google.jpg);
+    
+
 }
 @media (max-width:1024px) {
     .instagram-wrapper {
